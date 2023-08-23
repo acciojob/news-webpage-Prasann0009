@@ -1,1 +1,56 @@
 /*  your css code here. If applicable */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body
+{
+  background-color: #f5f5f5;
+}
+header{
+  text-align: center;
+  background-color: #011e29;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.news,.article,.pictorial
+{
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px; 
+  width: 33%;
+}
+.news{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 30%;
+}
+.article{
+  position: absolute;
+  top: 0px;
+  
+}
+.pictorial
+{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  flex-direction: column;
+  width: 30%;
+}
+.pictorial>img{
+  height: 200px;
+  object-fit: cover;
+}
